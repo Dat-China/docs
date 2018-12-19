@@ -2,8 +2,7 @@
 [troubleshooting_section]: https://docs.datproject.org/troubleshooting
 [open_an_issue]: https://github.com/datproject/dat/issues/new
 [chat_room]: https://gitter.im/datproject/discussions
-[]:
-[]:
+
 # 安装
 Dat拥有一个桌面客户端，一个命令行工具，和一个node.js库，如果你想阅读有关Dat如何工作的内容，请阅读 它是如何工作的 ，如果你还想学习更多请阅读Dat白皮书
 
@@ -14,8 +13,8 @@ Dat拥有一个桌面客户端，一个命令行工具，和一个node.js库，�
 
 **平台**|**链接**
 ---|---
-Mac|Download .dmg
-Linux|Download .AppImage
+Mac|[Download .dmg](http://dat-land.github.io/dat-desktop/mac)
+Linux|[Download .AppImage](http://dat-land.github.io/dat-desktop/linux)
 Windows|即将到来
 
 ## 在终端
