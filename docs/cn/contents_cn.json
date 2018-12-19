@@ -1,0 +1,28 @@
+{
+  "Using Dat": {
+    "介绍": "intro.md",
+    "安装": "install.md",
+    "开始": "tutorial.md",
+    "关键概念": "concepts.md",
+    "术语": "terms.md",
+    "安全与隐私": "security.md",
+    "常见问题": "faq.md",
+    "疑难解答": "troubleshooting.md"
+  },
+  "Cookbook": {
+    "通过http分享文件": "cookbook/http.md",
+    "发布": "cookbook/publish.md",
+    "运行Dat服务器": "cookbook/server.md",
+    "针对浏览器": "cookbook/browser.md",
+    "构建node.js应用": "cookbook/diy-dat.md",
+    "底层：Hyperdrive": "cookbook/using-fs.md"
+  },
+  "Dat Technology": {
+    "总览": "ecosystem.md",
+    "命令行": "dat.md",
+    "dat-node模块": "dat-node.md",
+    "hyperdrive模块": "hyperdrive.md",
+    "hypercore模块": "hypercore.md",
+    "hyperdiscovery模块": "hyperdiscovery.md"
+  }
+}

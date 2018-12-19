@@ -34,7 +34,7 @@ Dat内置了桌面应用与命令行工具使用过的javascript API。为了定
 
 ## 下载文件
 我们的第一个模块可以从用户输入的Dat 链接下载文件。
-```commandline
+```bash
 mkdir module-1 && cd module-1
 npm init
 npm install --save hyperdrive random-access-memory hyperdiscovery
@@ -68,7 +68,7 @@ var stream = archive.readFile('dat.json', 'utf-8', function (err, data) {
 
 现在你可以运行这个模块了！从一个archive下载dat.json文件：
 
-```commandline
+```bash
 node index.js dat://<link>
 ```
 

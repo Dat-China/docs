@@ -9,7 +9,9 @@
     "update:list": "curl -Ssl https://raw.githubusercontent.com/datproject/docs/master/README.md | grep '📔' | egrep -o 'github.com/[a-zA-Z0-9_-]+/[a-zA-Z0-9_-]+' | cut -f 2- -d / | uniq > repos.txt",
     "update:build": "cat repos.txt | ecosystem-docs sync && cat repos.txt | ecosystem-docs read | node scripts/build.js",
     "build:local": "npm run build:css && minidocs docs -c docs/contents.json -o dist  -l ./node_modules/dat-design/public/img/dat-hexagon.svg -t 'Dat Documentation' -s assets/styles.css --assets assets --pushstate",
+    "build:local:cn": "npm run build:css && minidocs docs/cn/ -c docs/cn/contents_cn.json -o dist  -l ./node_modules/dat-design/public/img/dat-hexagon.svg -t 'Dat 中文文档' -s assets/styles.css --assets assets --pushstate",
     "build:deploy": "npm run build:css && minidocs docs -c docs/contents.json -o dist -l ./node_modules/dat-design/public/img/dat-hexagon.svg -t 'Dat Documentation' -s assets/styles.css --assets assets --full-html",
+    "build:deploy:cn": "npm run build:css && minidocs docs/cn/ -c docs/cn/contents_cn.json -o dist -l ./node_modules/dat-design/public/img/dat-hexagon.svg -t 'Dat 中文文档' -s assets/styles.css --assets assets --full-html",
     "build:css": "node-sass --importer node_modules/node-sass-magic-importer assets/styles.scss assets/styles.css",
     "watch:css": "nodemon -e scss -x \"npm run build:local\"",
     "netlify": "npm run update:token && npm run build:deploy",
@@ -29,6 +31,7 @@
   "dependencies": {
     "dat-design": "^5.0.1",
     "gh-pages": "^0.11.0",
+    "leveldown": "^4.0.1",
     "minidocs": "github:datproject/minidocs#dat-tachyons",
     "split2": "^2.1.0"
   },
