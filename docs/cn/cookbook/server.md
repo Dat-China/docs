@@ -31,7 +31,7 @@ Hypercored使用[hypercore-archiver](https://github.com/mafintosh/hypercore-arch
 
 如果你遇到权限问题导致的安装失败，请参考[此教程](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)。
 
-现在创建一个名叫'feeds'的文件，在其中写入你想分享的dat。
+现在创建一个名叫`feeds`的文件，在其中写入你想分享的dat。
 
 feeds
 

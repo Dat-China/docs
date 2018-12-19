@@ -1,7 +1,7 @@
-# **发布一个Dat**
+# 发布一个Dat
 默认情况下，Dat是私有的，但是如果你想和全世界分享你的dat或者在你的组织中分享你的dat呢？有很多方法可以做到这一点，我们将在下面具体描述。
 
-## **创建 dat.json 文件**
+## 创建 dat.json 文件
 
 当引用一个dat时，你希望有一种方法可以确定这个dat是什么，就像一个标题，描述和url。
 为了做到这一点，我们建议在你的dat存档中创建一个`dat.json`文件和一个README文件。`dat create`命令会默认推荐创建一个`dat.json`文件。
@@ -23,7 +23,7 @@
 
 This will generate a dat.json file which you can use to reference your dat in the future. For example:
 
-这会生成一个dat.json文件，你可以使用它来引用你的dat。  
+这会生成一个`dat.json`文件，你可以使用它来引用你的dat。  
 例如：
 
 dat.json
@@ -50,7 +50,7 @@ Dat可以读这些文件来了解如何下载与编目你的Dat。这是最简�
 
 默认情况下，dat将使用datproject.org作为注册点。如果你想要使用你自己的注册点，你可以输入你自己的服务器名。一旦你拥有了一个账户，你就可以使用dat publish将你的dat发布到注册点。
 
-首先，**dat publish**）。例如，more-tweets-more-votes将会变成 （我的用户名）/more-tweets-more-votes
+首先，`dat publish`）。例如，more-tweets-more-votes将会变成 （我的用户名）/more-tweets-more-votes
 
     cd /path/to/my/dat
     $ dat publish
@@ -60,12 +60,12 @@ Dat可以读这些文件来了解如何下载与编目你的Dat。这是最简�
 一旦dat被发布，你就可以访问它，例如
 [https://datproject.org/karissa/more-tweets-more-votes](https://datproject.org/karissa/more-tweets-more-votes)
 
-为了让任何人都能看到dat，您需要在当前的dat中运行**dat share**命令。如果你想关掉你的桌面，我们建议你设置一个服务器来托管你的数据。
+为了让任何人都能看到dat，您需要在当前的dat中运行1dat share1命令。如果你想关掉你的桌面，我们建议你设置一个服务器来托管你的数据。
 
 # **Using Git with**dat.json
 你可能希望通过dat实现数据快速下载、版本控制、点对点连接、数据去重的同时能够获取git的协作优势；那么你要做的全部事情就是将dat.json包含在你的git仓库中并且告诉人们使用
-**dat clone .**
+`dat clone .`
 命令来获取你的最新版本数据。现在，当有人clone你的git仓库时，他们只需输入
-**dat clone .**或dat clone dat.json，然后dat.json中的url便会被用来下载dat。
+`dat clone .`或dat clone dat.json，然后dat.json中的url便会被用来下载dat。
 
 为了节省你的git仓库空间，你可能想要把.dat添加到你的.gitignore文件中来确保不包含任何dat的元数据。Dat默认情况下会忽略.git文件夹，因此你不必担心这个问题。
