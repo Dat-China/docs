@@ -79,7 +79,7 @@ Feeds are created with hypercore.
 
 ### Metadata Feed
 
-Like an HTTP header, the metadata contains a pointer to the contents of Dat and the file list.
+就像HTTP的header一样, 元数据包含了一个指向dat中文件的指针和一个文件列表。
 
 The metadata is a hypercore feed. The first entry in the metadata feed is the key for the content feed.
 
@@ -95,4 +95,4 @@ Archives created with hyperdrive are made with two feeds, one for the metadata a
 
 ### Hypercore
 
-[Hypercore](https://github.com/mafintosh/hypercore) is a protocol and network for distributing and replicating feeds of binary data. This creates an efficient gossip network where latency is reduced to a minimum. Hypercore is an eventually consistent, highly available, partition tolerant system.
+[Hypercore](https://github.com/mafintosh/hypercore) 是一个分发、复制二进制数据提要的协议。 它可以建立一个高效的消息网络来将延迟降到最低。 Hypercore 是一个一致的、可用性极高、允许分区的系统。
