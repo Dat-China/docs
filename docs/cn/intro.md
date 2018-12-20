@@ -3,15 +3,16 @@
 [archiver]: https://docs.datproject.org/server
 [dat_security]: https://docs.datproject.org/security
 [code_for_science_and_society]: https://codeforscience.org/ 
+[already_using_dat]: https://www.nytimes.com/2017/03/06/science/donald-trump-data-rescue-science.html
 # *欢迎来到 Dat*
 是否尝试过将很大的文件或文件夹移动到其他的电脑？通常这会涉及到以下几种策略之一：
 *   在同一个地方（使用usb）
 *   使用一个云服务器（Dropbox）
 *   使用老而可靠的技术工具（Rsync）
 
-随着时间的推移，所有这些都不容易存储、跟踪和共享您的数据。用户常常会在安全、速度、易用性的选择之间纠结。Dat通过使用最先进的技术基础和用户友好的工具来提供这三种特性，以实现加速和加密的您控制的文件共享。
+随着时间的推移，所有这些方式都不能方便地存储、跟踪并共享您的数据。用户常常会在安全、速度、易用性的选择之间纠结。Dat通过使用现有的技术基础和用户友好的工具帮助你实现安全、高速和易用的文件共享。
 
-DAT是由非营利组织“科学与社会代码”为公众开发的免费软件。研究人员、分析人员、图书馆和大学是已经使用了DAT对科学数据进行存档和分发。开发人员正在dat上构建应用程序浏览点对点网站和离线可编辑地图。任何人都可以使用DAT备份文件或与朋友分享这些可爱的猫图片。现在通过使用桌面应用程序、命令行或JavaScript库来安装和开始。
+DAT是由非营利组织“ Code for Science & Society”为公众开发的免费软件。许多研究人员、分析人员、图书馆和大学[已经在使用Dat][already_using_dat]对科研数据进行存档和分发。开发人员正在利用dat构建浏览p2p网站的应用程序和可离线编辑的地图应用。任何人都可以使用DAT备份文件或与朋友分享这些可爱的猫片。现在就安装桌面应用程序、命令行或JavaScript库然后开始使用Dat吧。
 
 准备好试一试了吗？开始安装吧。
 
