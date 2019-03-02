@@ -17,7 +17,7 @@
 [Dat][dat]是一个去中心化的文件数据分发工具，为科学与数据研究而设计。你可以通过这些客户端应用快速上手Dat。
 * [Dat Command Line][dat_command_line] - 在命令行中使用Dat。
 * [Dat Desktop][dat_desktop] - 一个Dat的桌面应用。
-* [Breaker Browser][breaker_browser] - 一个内置Dat的p2p浏览器。
+* [Beaker Browser][beaker_browser] - 一个内置Dat的p2p浏览器。
 
 ## Dat Project 的文档和资源
 
